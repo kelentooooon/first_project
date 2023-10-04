@@ -1,0 +1,230 @@
+.All {
+    padding: 50px 0;
+}
+
+@media(max-width:768px){
+    .All .sort {
+        display: none;
+    }
+}
+
+.All .border {
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 30px -10px rgb(0 0 0 / 10%);
+}
+
+.All .border h3 {
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.All .border ul {
+    list-style: none;
+    padding: 0;
+}
+
+.All .border ul li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.All .border span {
+    font-size: 20px;
+    color: black;
+}
+
+.All .border .title {
+    color: #7971ea;
+}
+
+.All .border span:hover {
+    color: #4f4a9b;
+    transition: 0.5s;
+}
+
+.All .sort .fil .border .range input {
+    width: 150px;
+}
+
+.All .sort .fil .size label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.All .sort .fil .size label input {
+    width: 20px;
+}
+
+.All .sort .fil .color a {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.All .sort .fil .color a .red {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    top: 50%;
+    position: absolute;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.All .sort .fil .color a .green {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    top: 50%;
+    position: absolute;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.All .sort .fil .color a .blue {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    top: 50%;
+    position: absolute;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.All .products .pro-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.All .products .pro-top h3 {
+    transform: translateY(50%);
+}
+
+.All .products .pro-top .buttons {
+    display: flex ;
+    justify-content: space-between;
+}
+
+.All .products .pro-top .buttons .dropdown {
+    padding: 0 10px;
+}
+
+@media(max-width:768px) {
+    .All .products .pro-top .buttons .dropdown button {
+        font-size: 15px;
+    }
+    .All .products .pro-top .buttons .dropdown a {
+        font-size: 12px;
+    }
+}
+
+@media(min-width:768px) {
+    .All .products .pro-top .buttons .dropdown button {
+        font-size: 20px;
+    }
+    .All .products .pro-top .buttons .dropdown a {
+        font-size: 18px;
+    }
+
+}
+
+.All .products .pro-top .buttons .dropdown button {
+    color: black;
+    background-color: #00000010;
+    border-color: #00000010;
+    height: 50px;
+}
+
+.All .products .product {
+    display:flex ;
+    flex-wrap: wrap;
+}
+
+.All .products .product .pro {
+    padding: 20px 20px 40px;
+}
+
+.All .products .product .pro .card figure img {
+    max-width: 100%;
+}
+
+.All .products .product .pro .card .text {
+    text-align: center;
+}
+
+.All .products .product .pro .card .text a {
+    text-decoration: none;
+}
+
+.All .products .product .pro .card .text a h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #7971ea;
+    font-weight: 400;
+}
+
+.All .products .product .pro .card .text a h3:hover {
+    transition: 0.5s;
+    color: #4f4a9b;
+}
+
+.All .products .product .pro .card .text .discribtion{
+    line-height: 1.7;
+    color: #8c92a0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.All .products .product .pro .card .text .price{
+    color: #7971ea;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.All .products .product .badgs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.All .products .product .badgs .badg-num {
+    width: 60%;
+}
+
+.All .products .product .badgs .badg-num ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.All .products .product .badgs .badg-num ul li {
+    position: relative;
+    border: 1px solid #7971ea;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.All .products .product .badgs .badg-num ul li a {
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: #7971ea;
+}
+
+.All .products .product .badgs .badg-num ul li.active  {
+    background-color: #7971ea;
+}
+
+.All .products .product .badgs .badg-num ul li.active a {
+    color: white;
+}

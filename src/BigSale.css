@@ -1,0 +1,42 @@
+.BigSale  {
+    padding: 100px 0;
+}
+
+.BigSale .row {
+    justify-content: space-around;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.BigSale .image a img {
+    width: 100%;
+}
+
+.BigSale .info {
+    text-align: center;
+    color: #abafb9;
+padding-top: 50px;
+}
+
+.BigSale .info h3 {
+font-size: 45px;
+color: #7971ea;
+margin-bottom: 30px;
+}
+
+.BigSale .info .by {
+ font-size: 20px;
+}
+
+.BigSale .info .by a {
+    text-decoration: none;
+    color: #7971ea;
+    padding: 0 5px;
+}
+
+.BigSale .info .discribtion {
+font-size: 24px;
+}
+
+
+

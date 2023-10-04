@@ -1,0 +1,32 @@
+.url {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.url div {
+    display: flex;
+}
+
+.url h3 {
+    padding: 0 10px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.url h3 a {
+    color: #7971ea;
+    text-decoration: none;
+}
+
+.url h3 a:hover {
+    color: #534e9c;
+    transition: 1s;
+}
+
+.url span {
+    font-size: 17px;
+}
+
+
+
+

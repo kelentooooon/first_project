@@ -1,0 +1,61 @@
+.thank {
+    padding: 100px 0 ;
+}
+
+.thank .icon {
+    font-size: 200px;
+    color: green;
+}
+
+
+.thank h3 {
+    font-size: 75px;
+    margin: 20px 0;
+}
+
+.thank p {
+    line-height: 1.7;
+    color: #8c92a0;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.thank a {
+    
+}
+
+.thank a button {
+    color: #fff;
+    background-color: #4f45e3;
+    border-color: #4539e2;
+    width: 200px;
+    display: inline-block;
+    height: 60px;
+    padding: 15px;
+    border-radius: 6px;
+    position: relative;
+    font-size: 20px;
+}
+
+
+.thank a button:hover {
+    box-shadow: 0 5px 20px -7px rgb(0 0 0 / 90%) !important;
+    top: -2px;
+    transition: 0.3s;
+    background-color: #4f45e3;
+    border-color: #4539e2;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

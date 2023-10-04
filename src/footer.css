@@ -1,0 +1,159 @@
+footer {
+  border-top: 1px solid #f3f3f4;
+}
+
+footer .container {
+  margin-top: 100px;
+}
+
+footer .row {
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+}
+
+@media (max-width: 1300px) {
+  footer .row {
+    flex-wrap: wrap;
+  
+  }
+}
+
+.head {
+  margin-bottom: 30px;
+}
+
+.head h3 {
+  text-transform: capitalize;
+  font-size: 23px;
+}
+
+.navigation .links {
+  display: flex;
+}
+
+.navigation .links .list {
+  padding-right: 20px;
+}
+
+.navigation .links .list ul {
+  padding: 0 25px 0px 0px;
+}
+
+.navigation .links .list ul li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.navigation .links .list ul li a {
+  text-decoration: none;
+  color: #5c626e;
+  font-size: 18px;
+}
+
+.navigation .links .list ul li a:hover {
+  color: #7971ea;
+}
+
+.promo a {
+  text-decoration: none;
+}
+
+.promo a .promo-info img {
+  max-width: 230px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.promo a .promo-info h3 {
+  margin-bottom: 15px;
+  color: #7971ea;
+  font-size: 15px;
+}
+
+.promo a .promo-info p {
+  color: #5c626e;
+}
+
+.info .contact ul {
+  padding: 0;
+}
+
+.info .contact ul li {
+  list-style: none;
+  display: flex;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.info .contact ul li span {
+  color: #7971ea;
+  font-size: 20px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.info .contact ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 5px;
+  color: #5c626e;
+  font-weight: 500;
+}
+
+.info .contact ul li a:hover {
+  color: #7971ea;
+}
+
+.info .contact ul .location span {
+  margin-top: 5px;
+}
+
+.info .contact ul .phone {
+  margin-bottom: 10px;
+}
+
+.info .contact ul .mail p {
+  margin-top: 5px;
+}
+
+.info .subscribe form input {
+  padding: 15px 40px 15px 15px;
+  border-radius: 5px;
+  border: 1px solid #5c626e;
+  position: relative;
+}
+
+.info .subscribe form a {
+  position: absolute;
+  margin-left: -69px;
+  margin-top: 2px;
+}
+
+.info .subscribe form button {
+  border: none;
+  padding: 14px;
+  color: white;
+  background-color: #7971ea;
+  border-radius: 5px;
+}
+
+.cobyright div {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.cobyright div p {
+  letter-spacing: 3px;
+  color: #5c626e;
+}
+
+.cobyright div p span {
+  font-size: 20px;
+}
+
+.cobyright div p a {
+  text-decoration: none;
+  color: #7971ea;
+  text-transform: capitalize;
+}

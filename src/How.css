@@ -1,0 +1,47 @@
+.how {
+    border-bottom: 1px solid #f3f3f4;;
+    padding: 50px 0;
+}
+
+.how .row {
+    justify-content: space-between;
+}
+
+.how .image {
+    width: 60%;
+}
+
+@media(max-width:991px){
+    .how .image {
+        width: 100%;
+    }
+}
+
+.how .image img {
+    max-width: 100%;
+}
+
+.how .info {
+    position: relative;
+}
+
+.how .info h3 {
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.how .info h3::before {
+
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #7971ea;
+    position: absolute;
+    top: 18px;
+
+}
+
+.how .info p {
+    font-size: 20px;
+    color: #00000050;
+}

@@ -1,0 +1,67 @@
+.foorm {
+  padding: 100px 0;
+}
+
+.retairn {
+  border: 1px solid #00000040;
+  padding: 40px 25px;
+  position: relative;
+}
+
+.retairn p {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.retairn p a {
+  color: #7971ea;
+  text-decoration: none;
+}
+
+.com-info .check {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.com-info .check input {
+  width: 18px;
+}
+
+.com-info #c_code {
+  padding: 10px 10px;
+  position: relative;
+}
+
+.com-info #button-addon2 {
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+  padding: 8px;
+  background-color: #7971ea;
+}
+
+.site-block-order-table thead tr th {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.site-block-order-table tbody tr td {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.border h3 {
+  padding: 7px 0;
+}
+
+.border h3 a {
+  text-decoration: none;
+  color: #7971ea;
+}
+
+.btn-primary {
+  background-color: #7971ea;
+}

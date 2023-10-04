@@ -1,0 +1,52 @@
+.post {
+    background-image: url(./img/hero_1.jpg);
+    background-size: cover;
+}
+
+@media(max-width : 1400px){
+    .post {
+        background-image: none;
+    }
+    .all-info {
+        justify-content: center;
+        text-align: center;
+    }
+    .info h2 {
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width : 1400px){
+    .all-info {
+        justify-content: flex-end;
+    }
+    .info h2 {
+        font-size: 73px;
+        margin-bottom: 30px;
+    }
+}
+
+.all-info {
+    display: flex;
+    align-items: center;
+    min-height: 600px ;
+    height: calc( 100vh - 200px );
+}
+
+.info {
+    width: 450px;
+}
+
+.info p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.info .btn {
+    background-color: #7971ea;
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+}
